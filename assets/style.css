@@ -10,27 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* main background img */
-.bulb {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("./lightbulb.jpg");
-    background-size: cover;
-    background-position: center;
-    
-}   
 
-/* Bottom right text */
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: rgb(175, 211, 228);
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 /* header Styles */
 header {
@@ -68,40 +48,126 @@ nav a {
 
 /* unvisited link */
 a:link {
-    color: rgb(60, 203, 247);
+    color: rgb(53, 130, 153);
   }
   
   /* visited link */
 a:visited {
-    color: rgb(227, 249, 253);
+    color: rgb(240, 156, 163);
   }
+/* section stylings */
+.title {
+  margin: 25px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
 
+.title div{
+  flex: 0 0 75%
+}
 
-main{
+.title > h2{
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 10px;
+  border-right: 5px solid black;
+  font-size: 3vw;
+}
 
+.title p {
+  margin-bottom: 15px;
+}
+
+  /* main background img */
+.bulb {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("./lightbulb.jpg");
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: flex-end;
+  text-align: right;
+  align-items: flex-end;
+}   
+
+/* Bottom right text */
+.bulb .text-block {
+flex: 0 0 50%;
+}
+
+.bulb h4 {
+  background-color: rgb(175, 211, 228);
+  margin: 0;
+  padding: 1px;
+  display: inline;
+  font-size: 30px
 }
 
 .city {
   float: right;
   width: 100%
 }
-
-.city:hover {
+/* working section hover  */
+.blocks:hover {
   box-shadow: 10px 10px black;
   opacity: 45%
 }
+/* work section */
 
-.blocks {
-  display: flex;
-  flex-flow: column wrap;
-  position: relative;
-  padding: 0;
-  margin: 10px;
-  width: 100%;
- 
+.firstimg{
+  height: 500px;
+  width: 600px;
+  margin-bottom: 25px;
+  background-image: url("./140824-0127_SEATTLE_WASHINGTON_large.jpg");
+  background-size: cover;
+  background-position: center;
+
 }
 
-.blocks:hover {
-  box-shadow: 10px 10px black;
-  opacity: 45%;
-}
+.twoimg{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 25px;
+  background-image: url("./1413917.jpg");
+  background-size: cover;
+  background-position: center;
+  
+  }
+
+.thirdimg{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 25px;
+    background-image: url("./code\ blue.jpg");
+    background-size: cover;
+    background-position: center;
+    
+   }
+
+.fourthimg{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 25px;
+  background-image: url("./programmer-100735074-large.jpg");
+  background-size: cover;
+  background-position: center;
+      
+   }
+
+.contactlink a {
+font-size: 22px;
+display: inline;
+margin-right: 1em;
+ }
+
+footer p{
+  padding: 30px;
+  text-align: center;
+
+} 
