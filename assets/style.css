@@ -1,0 +1,93 @@
+/* document styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* body styles */
+body {
+    background-color: #d9dcd6;
+}
+
+/* main background img */
+.bulb {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./lightbulb.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}   
+
+/*  */
+
+/* header Styles */
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1%;
+   background-color: #13293d;
+   color: #fff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+  }
+  
+nav a {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none; 
+  }
+
+
+/* unvisited link */
+a:link {
+    color: rgb(60, 203, 247);
+  }
+  
+  /* visited link */
+a:visited {
+    color: rgb(227, 249, 253);
+  }
+
+
+main{
+
+}
+
+.city {
+  float: right;
+  width: 100%
+}
+
+.city:hover {
+  box-shadow: 10px 10px black;
+  opacity: 45%
+}
+
+.blocks {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  padding: 0;
+  margin: 10px;
+  width: 100%;
+ 
+}
+
+.blocks:hover {
+  box-shadow: 10px 10px black;
+  opacity: 45%;
+}
