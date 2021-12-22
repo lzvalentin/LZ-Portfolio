@@ -11,7 +11,7 @@ Background image used on the top of page
 
 Images used in work section of portfolio
 
-![b&W City of Seattle](assets/images/140824-0127_SEATTLE_WASHINGTON_large.jpg |)
+![b&W City of Seattle](assets/images/140824-0127_SEATTLE_WASHINGTON_large.jpg)
 
 ![yellow dots](assets/images/yellow.jpg)
 
