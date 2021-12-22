@@ -87,7 +87,7 @@ a:visited {
   height: 200px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("./lightbulb.jpg");
+  background-image: url("./images/lightbulb.jpg");
   background-size: cover;
   background-position: center;
   display:flex;
@@ -113,18 +113,20 @@ flex: 0 0 50%;
   float: right;
   width: 100%
 }
+
 /* working section hover  */
 .blocks:hover {
   box-shadow: 10px 10px black;
   opacity: 45%
 }
-/* work section */
 
+
+/* work section images */
 .firstimg{
   height: 500px;
   width: 600px;
   margin-bottom: 25px;
-  background-image: url("./140824-0127_SEATTLE_WASHINGTON_large.jpg");
+  background-image: url("./images/140824-0127_SEATTLE_WASHINGTON_large.jpg");
   background-size: cover;
   background-position: center;
 
@@ -134,7 +136,7 @@ flex: 0 0 50%;
   height: 200px;
   width: 300px;
   margin-bottom: 25px;
-  background-image: url("./1413917.jpg");
+  background-image: url("./images/1413917.jpg");
   background-size: cover;
   background-position: center;
   
@@ -144,7 +146,7 @@ flex: 0 0 50%;
     height: 200px;
     width: 300px;
     margin-bottom: 25px;
-    background-image: url("./code\ blue.jpg");
+    background-image: url("./images/code\ blue.jpg");
     background-size: cover;
     background-position: center;
     
@@ -154,18 +156,29 @@ flex: 0 0 50%;
   height: 200px;
   width: 300px;
   margin-bottom: 25px;
-  background-image: url("./programmer-100735074-large.jpg");
+  background-image: url("./images/programmer-100735074-large.jpg");
   background-size: cover;
   background-position: center;
       
    }
 
+.fiveimg{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 25px;
+    background-image: url("./images/programming-coding.jpg");
+    background-size: cover;
+    background-position: center;
+        
+}
+/* contact section links */
 .contactlink a {
 font-size: 22px;
 display: inline;
 margin-right: 1em;
  }
 
+ /* footer */
 footer p{
   padding: 30px;
   text-align: center;
