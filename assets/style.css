@@ -114,13 +114,22 @@ flex: 0 0 50%;
   width: 100%
 }
 
+
 /* working section hover  */
 .blocks:hover {
   box-shadow: 10px 10px black;
   opacity: 45%
 }
 
-
+.work {
+ position: flex;
+ justify-content: center;
+ text-align: center;
+ color: white; 
+}
+a {
+  float: left;
+}
 /* work section images */
 .firstimg{
   height: 500px;
