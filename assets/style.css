@@ -7,7 +7,7 @@
 
 /* body styles */
 body {
-    background-color: #d9dcd6;
+    background-color: #83A3A0;
 }
 
 
@@ -53,7 +53,7 @@ a:link {
   
   /* visited link */
 a:visited {
-    color: rgb(240, 156, 163);
+    color: white;
   }
 /* section stylings */
 .title {
@@ -127,31 +127,35 @@ flex: 0 0 50%;
  text-align: center;
  color: white; 
 }
-a {
+a .firstimg .twoimg {
   float: left;
+  width: 100%;
+  border: 5px solid #59D7EE;
+  background-color: #9DE3F6;
 }
 /* work section images */
-.firstimg{
-  height: 500px;
-  width: 600px;
-  margin-bottom: 25px;
-  background-image: url("./images/140824-0127_SEATTLE_WASHINGTON_large.jpg");
-  background-size: cover;
-  background-position: center;
 
+.blockone{
+  height: 500px;
+  width: 70%;
+  margin-bottom: 10px;
+  background-image: url("./images/140824-0127_SEATTLE_WASHINGTON_large.jpg");
+   background-size: cover;
+  background-position: center; 
+  
 }
 
-.twoimg{
+ .blocktwo{
   height: 200px;
-  width: 300px;
+  width: 50%;
   margin-bottom: 25px;
   background-image: url("./images/yellow.jpg");
   background-size: cover;
   background-position: center;
   
-  }
+  } 
 
-.thirdimg{
+/*.thirdimg{
     height: 200px;
     width: 300px;
     margin-bottom: 25px;
@@ -159,9 +163,9 @@ a {
     background-size: cover;
     background-position: center;
     
-   }
+   } */
 
-.fourthimg{
+/* .fourthimg{
   height: 200px;
   width: 300px;
   margin-bottom: 25px;
@@ -169,9 +173,9 @@ a {
   background-size: cover;
   background-position: center;
       
-   }
+   } */
 
-.fiveimg{
+/* .fiveimg{
     height: 200px;
     width: 300px;
     margin-bottom: 25px;
@@ -179,7 +183,7 @@ a {
     background-size: cover;
     background-position: center;
         
-}
+} */
 
 /* contact section links */
 .contactlink a {
