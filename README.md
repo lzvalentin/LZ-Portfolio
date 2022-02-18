@@ -15,23 +15,7 @@ WHEN I scroll down, THEN I can click the images that will open projects previous
 When I continue to scroll down to the contact me section, THEN I can click the links of contact by phone, email, github & linkedin.
 ## Usage
 
-![] (assets/images/portfolio.gif)
-
-
-<!-- Background image used on the top of page
-![string of lights](/assets/images/lightbulb.jpg);
-
-Images used in work section of portfolio
-
-![b&W City of Seattle](assets/images/140824-0127_SEATTLE_WASHINGTON_large.jpg)
-
-![yellow dots](assets/images/yellow.jpg)
-
-![code blue](assets/images/code_blue.jpg)
-
-![typing on laptop](assets/images/greenprogrammer.jpg)
-
-![screen with code](assets/images/programming-coding.jpg) -->
+![portfolio](./assets/images/portfolio2.gif)
 
 
 
